@@ -17,3 +17,14 @@ table{
     width: 650px;
     margin: 0 auto;
 }
+
+thead{
+    background-color: burlywood;
+}
+td{
+    border-top: 1px solid goldenrod;
+}
+.code{
+    font-family: monospace;
+    background-color: aquamarine;
+}
