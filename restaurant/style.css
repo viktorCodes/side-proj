@@ -1,0 +1,130 @@
+:root{
+    --color_white: hsl(0, 0%, 90%);
+    --color_black: hsl(0, 0%, 10%);
+    --color_orange: #ff9100;
+    --color_orange_60: hsl(34, 100%, 60%);
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400');
+
+html {font-size: 100%;} /*16px*/
+body {
+  background: var(--color_white);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color_black);;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+  line-height: 1;
+}
+
+h2 {font-size: 2.441rem;}
+
+h3 {font-size: 1.953rem;}
+
+h4 {font-size: 1.563rem;}
+
+h5 {font-size: 1.25rem;}
+
+small, .text_small {font-size: 0.8rem;}
+/*==================*/
+.section-hero {
+    max-width: 100%;
+    height: 28rem;
+    background-size: cover;
+    background-image: url("./images/spoon.jpg");
+}
+
+.section-hero nav ul{
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 3rem;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+.section-hero__intro{
+    margin-left: 3rem;
+}
+.section-hero__intro h1{
+    max-width: 22rem;
+}
+.section-hero__intro input, .section-hero__intro button{
+    height: 2rem;
+    border: none;
+}
+.section-hero__intro input{
+    border-radius: 5px 0 0 5px;
+}
+.section-hero__intro button{
+    background-color: var(--color_orange);
+    color: var(--color_white);
+    padding: 8px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -3px;
+}
+.section-hero__intro__socials{
+    display:flex;
+    margin-top: 1.5rem;
+    gap: 3.5rem;
+}
+.section-hero__intro__socials span::before{
+    content: '';
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    float: left;
+}
+.section-hero__intro__socials span:nth-child(1)::before{
+    background-image: url("./socials/facebook.svg");
+}
+.section-hero__intro__socials span:nth-child(2)::before{
+    background-image: url("./socials/twitter.svg");
+}
+.section-hero__intro__socials span:nth-child(3)::before{
+    background-image: url("./socials/instagram.svg");
+}
+
+
+.section-about{
+    display: flex;
+    justify-content: end;
+    
+    background-size: cover;
+    background-image: url("./images/girl.jpg");
+}
+.section-about__content{
+    margin: 3rem;
+    max-width: 25rem;
+
+}
+.section-about__content span{
+    color: var(--color_orange);
+}
+.section-about__content h2{
+    margin-top: 0.2rem;
+}
+.section-about__content a{
+    text-decoration: none;
+    background-color: var(--color_orange);
+    color: var(--color_white);
+    border-radius: 5px;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+}
+.section-about__content a span{
+    color: var(--color_white);
+}

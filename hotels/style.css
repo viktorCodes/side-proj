@@ -1,0 +1,42 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: 1E1E24;
+    text-align: center;
+    
+}
+
+.jumbotron{
+    background-image: url('./images/hotel.jpg');
+    height: 200px;
+    background-position: bottom center;
+}   
+
+h1{
+    color: #fff;
+    font-family: 'Ruda', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0px;
+    padding-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    color:#fff;
+    font-family: 'Catamaran', sans-serif;
+    margin: 0px;
+    text-align: left;
+
+}
+
+h3{
+    color: #d7263d;
+    font-family: 'Ruda', sans-serif;
+    font-size: 32px;
+    margin: 0px;
+    position: relative;
+    text-align: left;
+    text-transform: uppercase;
+}
