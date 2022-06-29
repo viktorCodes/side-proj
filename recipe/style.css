@@ -150,6 +150,7 @@ color: #A01C36;
   .site-header {
     background-color: #A01C36;
     padding: 20px 15px;
+
   }
   
   .site-header-nav {
@@ -315,6 +316,7 @@ text-transform: uppercase;
     position: relative;
     width: 90%;
     margin: auto;
+    padding:30px 15px;
   }
   
   .site-main-background {
@@ -331,6 +333,7 @@ text-transform: uppercase;
   
   .site-main-header {
     text-align: center;
+    margin-bottom: 30px;
   }
   
   .site-main-section-header {
@@ -363,7 +366,7 @@ text-transform: uppercase;
   }
   
   .recipe-preview {
-    margin-bottom: 5px;
+    margin-bottom: 60px;
   }
   
   .recipe-preview:first-child {
