@@ -38,3 +38,26 @@
   
   
  }
+.hero-section{
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  background-size: cover;
+}
+
+.ourmission{
+  background-color: black;
+  margin: 0;
+  position: absolute;
+  top: 68%;
+  width:1250px;
+  
+ 
+}
+
+ h2,h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
