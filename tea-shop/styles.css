@@ -1,0 +1,18 @@
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+  }
+
+  .site-header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
