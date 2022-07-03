@@ -9,10 +9,32 @@
     opacity: 0.9;
   }
 
-  .site-header{
+ .header-right{
+  
+  float: right;
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  
+ }
 
-  }
+ .header-right li{
+  display: inline-block;
+  letter-spacing: 1px;
+  padding-right: 2.22rem;
+  text-decoration:underline;
+  
+  
+ }
+
+ header{
+  border-bottom: 1px solid seashell;
+  height: 89px;
+ 
+
+ 
+ }
+
+ .header-left{
+   margin-left: 10px;
+  
+  
+ }
