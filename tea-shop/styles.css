@@ -108,11 +108,12 @@
 
 .cozy{
 
-  padding-bottom: 40px;
+ 
   position: relative;
   text-align: center;
   width: 100%;
-  margin-bottom: 21px;
+ 
+  height: 200px;
 
 }
 
@@ -120,3 +121,4 @@ footer{
   text-align: left;
   margin-left: 20px;
 }
+
