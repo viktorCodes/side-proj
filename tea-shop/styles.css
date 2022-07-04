@@ -2,11 +2,16 @@
 ======================================== */
 * {
     box-sizing: border-box;
-    background-color: black;
     color: seashell;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     opacity: 0.9;
+  }
+
+  body{
+    background-color: black;
+    
+    
   }
 
  .header-right{
@@ -73,7 +78,7 @@
 .tea-box{
  
   border-radius: 3px;
- 
+  
   display: inline-block;
   margin: 10px;
   padding: 14px;
@@ -97,11 +102,13 @@
 }
 
 .location-box{
-  border-radius: 3px;
- 
+  
+ background-color: black;
   display: inline-block;
   margin: 10px;
   padding: 40px;
+  
+  
  
   
 }
