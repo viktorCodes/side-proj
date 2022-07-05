@@ -2,78 +2,94 @@
 ======================================== */
 * {
     box-sizing: border-box;
-    color: seashell;
-    font-family: Helvetica, sans-serif;
+     margin: 0;
+     padding: 0;
+    
+  }
+
+  html{
     font-size: 22px;
-    opacity: 0.9;
   }
 
   body{
     background-color: black;
-    
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    opacity: 0.9;
+    text-align: center;
     
   }
-
- .header-right{
-  
-  float: right;
-
-  
- }
-
- .header-right li{
-  display: inline-block;
-  letter-spacing: 1px;
-  padding-right: 2.22rem;
-  text-decoration:underline;
-  
-  
- }
+ /* Header Styles */
 
  header{
   border-bottom: 1px solid seashell;
-  height: 89px;
- 
-
- 
+  width: 100%;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
  }
 
- .header-left{
-   margin-left: 10px;
-  
-  
+ .logo{
+  height: 50px;
+  margin-left: 10px;
  }
+
+ header li{
+  display: inline;
+  padding: 0.5rem;
+ }
+
+ header a{
+  color: seashell;
+ }
+
+ /* Hero-mission Styles */
 .hero-section{
-  background-image: url("./images/img-mission-background.jpg");
-  height: 700px;
-  background-size: cover;
+  position: relative;
+	top: 69px;
+	opacity: 0.9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container{
+  background-color: black;
 }
 
 .ourmission{
-  background-color: black;
-  margin: 0;
-  position: absolute;
-  top: 68%;
-  width:1250px;
-  
- 
-}
+  width:1200px;
+  background-image: url("./images/img-mission-background.jpg");
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
 
- h2,h4{
+  .ourmission.container{
+    width: 100%;
+  }
+
+ .ourmission h2, .ourmission h4{
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Tea-types-styles */
+
 .tea-types{
  
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-  
-  
-}
+  margin: 40px auto 50px;
+  width: 1000px;
+  }
+
+  .tea-types h2, .tea-types h4{
+    padding: 10px;
+  }
 
 .tea-box{
  
