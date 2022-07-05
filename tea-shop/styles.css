@@ -59,24 +59,24 @@
 
 .container{
   background-color: black;
+  width: 100%;
 }
 
 .ourmission{
-  width:1200px;
-  background-image: url("./images/img-mission-background.jpg");
-  height: 700px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 1200px;
+	height: 700px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('./images/img-mission-background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
   }
 
-  .ourmission.container{
-    width: 100%;
-  }
+  
 
  .ourmission h2, .ourmission h4{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   padding: 10px;
 }
 
 /* Tea-types-styles */
@@ -120,7 +120,7 @@
 
 }
 
-.location h2{
+.locations h2{
   position: absolute;
   top: 75px;
 }
