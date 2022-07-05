@@ -175,7 +175,7 @@ footer{
 }
 
 @media only screen and (max-width: 597px) {
-	#logo {
+	.logo {
 		display: none;
 	}
 
@@ -188,19 +188,19 @@ footer{
 		padding: 1rem;
 	}
 
-	#locations {
+	.locations {
 		background-position: 20% 0%;
 	}
 
-	#locations h2 {
+	.locations h2 {
 		top: 20px;
 	}
 
-	#location-container {
+	.location-container {
 		flex-flow: wrap;
 	}
 
-	#location-container .container {
+	.location-container .location-box {
 		margin: 10px 10px;
 		height: auto;
 	}
