@@ -104,46 +104,60 @@
     margin: 10px;
   }
 
+  /* Location Styles */
+
 .locations{
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url('./images/img-locations-background.jpg');
   background-size: cover;
-  padding: 40px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-  height: 600px;
-  margin-top: 20px;
- 
- 
-  
+  background-position: 100% 15%;
+	background-repeat: no-repeat;
 
 }
 
-.location-box{
-  
- background-color: black;
-  display: inline-block;
-  margin: 10px;
-  padding: 40px;
-  
-  
- 
-  
+.location h2{
+  position: absolute;
+  top: 75px;
 }
+
+.location-container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+  .location-container .location-box {
+    flex-basis: 300px;
+    margin: 15px 20px;
+    height: 245px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 1;
+    background-color: black;
+  }
+
+  /*Contact Styles*/
+
 
 .cozy{
-
- 
-  position: relative;
-  text-align: center;
-  width: 100%;
- 
   height: 200px;
-
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-items: center;
 }
 
 footer{
-  text-align: left;
-  margin-left: 20px;
+  position: relative;
+	top: 69px;
+	margin-left: 20px;
+	text-align: left;
 }
 
