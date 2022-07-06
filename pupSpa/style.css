@@ -6,10 +6,16 @@ body{
 }
 
 .grid{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template: 100px 8fr 5fr 4fr 5fr / repeat(6, 1fr) ;  
 
 }
 
 header{
+    grid-column: 1 / 7;
+
+display: grid;
 
 }
 
@@ -30,6 +36,8 @@ header{
     font-size: 2em;
     font-weight: 300;
     letter-spacing: 3.7px;
+    grid-column: 1 / 7;
+    display: grid;
 }
 
 p, .banner-contents{
@@ -44,7 +52,9 @@ img{
 
 .about{
     background-color: #f0f0f0;
-}
+    grid-column: 1 / 7;
+        display: grid;
+    }
 
 .text{
     color: #2f2d2d;
@@ -65,15 +75,15 @@ img{
 }
 
 .address{
-
+   grid-column: 1/ span 2;
 }
 
 .hours{
-
+    grid-column: 3/ span 2;
 }
 
 .call-us{
-
+    grid-column: 5/ span 2;
 }
 
 
@@ -92,10 +102,12 @@ img{
 }
 
 .one{
-
+    grid-column: 1/ span 3;
 }
 
+
 .two{
+    grid-column: 4/ span 3;
 
 }
 
@@ -105,4 +117,6 @@ img{
   font-family: Poppins;
   font-size: 16px;
   letter-spacing: 0.4px;
+ grid-column: 1 / 7;
+ display: grid;
 }
