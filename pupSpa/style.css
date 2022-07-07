@@ -94,7 +94,7 @@ img{
 
 .testimonial{
     background-color: #f0f0f0;
-    color: #db6363;
+    color: hsl(0, 62%, 62%);
     font-family: Poppins;
     font-size: 18px;
     font-style: italic;
