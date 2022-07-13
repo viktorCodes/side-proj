@@ -1,0 +1,10 @@
+/* Universal Styles */
+
+body {
+    margin: 0;
+    font-family: "Lexend Mega", sans-serif;
+    color: black;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+  }
