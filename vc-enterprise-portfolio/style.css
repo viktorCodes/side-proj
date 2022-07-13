@@ -117,3 +117,8 @@ body {
   width: 200px;
   height: auto
 }
+
+.contact,
+.copyright {
+  padding-top: 20px;
+}
