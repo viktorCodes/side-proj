@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 10px;
   }
-
+  /* header - nav section */
   .header{
     display: flex;
     flex-direction: column;
@@ -37,11 +37,13 @@ body {
     display:inline-block;
     padding: 10px 10px;
   }
+  /* main section */
 .main{
     padding-top: 35px;
     opacity: 0.9;
 }
 
+/* Mission Section */
 .mission{
     display: flex;
     height: 300px;
@@ -55,6 +57,7 @@ body {
     width: 100%;
 }
 
+/* Portfolio Section */
 #portfolio{
   min-height: 500px;
   margin: auto;
@@ -88,4 +91,29 @@ body {
   min-width: 240px;
   font-weight: bold;
   text-align: center;
+}
+
+/* Team Section */
+
+.team{
+  background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+
+  padding-top: 70px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teammate{
+  padding: 10px;
+  color: white;
+  flex-basis: 280px;
+}
+
+.teammate img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: auto
 }
