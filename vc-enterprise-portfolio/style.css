@@ -32,3 +32,25 @@ body {
     justify-content: space-around;
     margin: 0 10%;
   }
+
+  .navbar p{
+    display:inline-block;
+    padding: 10px 10px;
+  }
+.main{
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission{
+    display: flex;
+    height: 300px;
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg");
+    padding-top: 35px;
+}
+
+.mission .content{
+    margin: auto;
+    background-color: white;
+    width: 100%;
+}
