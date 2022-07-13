@@ -255,7 +255,15 @@ header .mobile {
   color: #4a4a4a;
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 895px) {
+
+  .feature-section{
+    padding: 1rem;
+  }
+  .feature{
+    margin: 0px .5rem;
+    padding: 1rem;
+  }
   .feature h2 {
     font-size: 1.125rem;
     line-height: 1.3;
@@ -268,7 +276,7 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   #features-section {
     flex-flow: column;
     padding: 0;
@@ -277,6 +285,10 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+
+  .feature .content{
+    padding: 1.25rem 0 1.85rem 0;
   }
 }
 
@@ -306,11 +318,12 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -347,10 +360,13 @@ header .mobile {
 }
 
 #quotes-section content {
-  padding: 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 1.5rem;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -359,21 +375,27 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
+@media only screen and (max-width: 895px) {
+  #quotes-section .content {
+    padding: 3rem 1.5rem;
+  }
+}
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 600px) {
   #quotes-section content {
+    flex-flow: column;
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
