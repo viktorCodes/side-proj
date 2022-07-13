@@ -54,3 +54,38 @@ body {
     background-color: white;
     width: 100%;
 }
+
+#portfolio{
+  min-height: 500px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.companies{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company img{
+ 
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 10px;
+  height: auto;
+}
+
+.company span{
+  padding: 5px;
+  min-width: 240px;
+  font-weight: bold;
+  text-align: center;
+}
