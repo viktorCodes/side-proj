@@ -1,24 +1,105 @@
 
-  
-
-body{
-    background-color: darkgoldenrod;
+  body{
     font-family: Montserrat, sans-serif;
     font-size: 16px;
      margin: 0;
+    background-color: darkgoldenrod;
 }
 
-.header{
-    background-color: darkgreen;
-    padding-top: 1rem;
-    color: lightsalmon;
-    
-}
 
 .navbar{
-    display: flex;
-    flex-direction: row;
-    margin-left: 50px;
-    color: lightsalmon;
+   padding-top: 1rem;
+   background-color: darkgreen;
+     color: lightsalmon;
+    }
+
+.run-club{
+    height: 30rem;
+    padding-top: 1rem;
+   
+    background-position: center;
+    background-repeat: none;
 }
 
+.run-club img{
+    width: 15rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.run-club h1{
+    color: coral;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5,0.5,0.5,0.5);
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    color: lightsalmon;
+    padding: 0.5rem 1.5rem;
+    margin-left: 1.5rem;
+    display: inline-block;
+}
+
+.meetup,
+.picgallery,
+.quote,
+.fun{
+    margin: 4em auto;
+}
+
+.meetup{
+    padding: 0 1rem;
+}
+
+.meetup p{
+    color: white;
+}
+
+.quote{
+    background-color: darkolivegreen;
+    height: 20rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    color: yellow;
+}
+
+.quote h1{
+   font-size: 2.5rem;
+   color: yellow;
+}
+
+.quote h2{
+    color: yellow;
+
+}
+
+.picgallery img{
+    width: 30%;
+    margin: 1.5%;
+}
+
+.fun{
+    margin-bottom: 2rem;
+
+}
+
+.fun img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.fun h1{
+    color: yellow;
+    text-align: center;
+}
