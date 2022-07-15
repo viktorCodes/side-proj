@@ -1,0 +1,15 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.header{
+    background-color: darkgreen;
+    width: 100%;
+    display: inline-block;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
