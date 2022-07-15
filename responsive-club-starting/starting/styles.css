@@ -106,9 +106,37 @@ li {
 }
 
 @media only screen and (max-width: 1048px){
-    .photos img {
+    .picgallery img {
         width: 100%;
         margin-left: auto;
         margin-right: auto;;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .run-club h1{
+        margin-top: 2rem;
+    }
+    .run-club{
+        max-height: 200px;
+    }
+    .picgallery img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    li{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .quote h1{
+        font-size: 2rem;
+    }
+    .picgallery img{
+        width: 100%;
     }
 }
